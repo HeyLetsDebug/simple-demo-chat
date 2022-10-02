@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bodyWrapper
+{
+    background-color: blanchedalmond;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    justify-content: space-around;
+}
+.chatWrapperScreen
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: stretch;
+    width: 28rem;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #80cbc4;
+}
+.chatArea
+{
+    overflow: auto;
+    background-color: white;
+    border-radius: 5px;
+    height: 90%;
+    padding: 0.5rem;
+}
+.messagingArea
+{
+    height: 10%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.sndMsgButton
+{
+    background-color: hotpink;
+    border: 0px;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+.chatInput
+{
+    width: 85%;
+    border: 0px;
+    height: 3rem;
+    border-radius: 5px;
+    padding: .5rem;
+
+}
+.myChatsSpan {
+    padding: 0.5rem 1rem;
+    background: #b3e5fc;
+    width: fit-content;
+    border-radius: 9px;
+}
+.otherChatsSpan {
+    padding: 0.5rem 1rem;
+    background: #f3e5f5;
+    width: fit-content;
+    border-radius: 9px;
+}
+.myChats {
+    display: flex;
+    margin-bottom: .2rem;
+    justify-content: flex-end;
+}
+.otherChats {
+    display: flex;
+    margin-bottom: .2rem;
+    justify-content: flex-start;
+}
